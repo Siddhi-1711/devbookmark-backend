@@ -1,5 +1,11 @@
 # DevBookmark — Backend
 
+![Java](https://img.shields.io/badge/Backend-Java%2017-orange)
+![Spring Boot](https://img.shields.io/badge/Framework-SpringBoot-green)
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 A full-stack social platform where developers save, share, and discover programming resources.
 
 🔗 **Live Demo:** https://devbookmark.netlify.app  
