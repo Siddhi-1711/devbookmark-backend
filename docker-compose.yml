@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: devbookmark-postgres
+    environment:
+      POSTGRES_DB: devbookmark
+      POSTGRES_USER: devbookmark
+      POSTGRES_PASSWORD: devbookmark
+      TZ: Asia/Kolkata
+    ports:
+      - "15433:5432"
+    volumes:
+      - devbookmark_pgdata:/var/lib/postgresql/data
+
+volumes:
+  devbookmark_pgdata:
+
