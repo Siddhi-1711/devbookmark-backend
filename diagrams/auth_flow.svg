@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<svg width="1800" height="1100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.section { font: 700 22px Arial, sans-serif; fill:#0f172a; }
+      .label { font: 700 18px Arial, sans-serif; fill:#0f172a; }
+      .body { font: 500 14px Arial, sans-serif; fill:#334155; }
+      .small { font: 500 13px Arial, sans-serif; fill:#475569; }
+      .layer { rx:26; ry:26; stroke-width:2; filter:url(#shadow); }
+      .card { rx:16; ry:16; stroke-width:2; filter:url(#shadow); }
+      .arrow { stroke:#64748b; stroke-width:3.5; fill:none; marker-end:url(#arrow); }
+      .soft { stroke:#cbd5e1; stroke-width:2; stroke-dasharray:8 8; }</style>
+ </defs>
+ <!-- Request source -->
+ <!-- Main flow -->
+ <!-- Login flow strip -->
+ <!-- arrows -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#f8fafc" height="1100" id="svg_2" width="1800"/>
+  <rect class="layer" fill="#eef2ff" height="110" id="svg_3" stroke="#94a3b8" width="1660" x="70" y="80"/>
+  <text class="section" id="svg_4" x="100" y="120">Auth Request Entry</text>
+  <rect class="card" fill="#ffffff" height="60" id="svg_5" stroke="#94a3b8" transform="matrix(1 0 0 1 0 0)" width="270" x="315" y="102"/>
+  <text class="label" font-size="18" id="svg_6" transform="matrix(1 0 0 1 0 0)" x="378" y="123">Frontend / Client</text>
+  <text class="small" font-size="13" id="svg_7" transform="matrix(1 0 0 1 0 0)" x="356" y="142">Bearer token or login credentials</text>
+  <rect class="card" fill="#ecfeff" height="74" id="svg_8" stroke="#06b6d4" width="380" x="720" y="98"/>
+  <text class="label" id="svg_9" x="748" y="130">Spring Boot API Entry</text>
+  <text class="body" id="svg_10" x="748" y="152">HTTPS request into security filter chain</text>
+  <rect class="layer" fill="#eff6ff" height="551" id="svg_11" stroke="#3b82f6" transform="matrix(1 0 0 1 0 0)" width="1660" x="70" y="240"/>
+  <text class="section" font-size="22" id="svg_12" transform="matrix(1 0 0 1 0 0)" x="101" y="270">DevBookmark Authentication and Authorization Flow</text>
+  <rect class="card" fill="#fff1f2" height="285" id="svg_13" stroke="#fb7185" transform="matrix(1 0 0 1 0 0)" width="280" x="105" y="330"/>
+  <text class="label" id="svg_14" x="132" y="368">1. JWT Validation</text>
+  <text class="body" id="svg_15" x="132" y="400">Extract Bearer token</text>
+  <text class="body" id="svg_16" x="132" y="430">Verify HMAC-SHA256 signature</text>
+  <text class="body" id="svg_17" x="132" y="460">Check expiry</text>
+  <text class="body" id="svg_18" x="132" y="490">Load UserDetails</text>
+  <text class="small" id="svg_19" x="132" y="545">If token is missing / invalid:</text>
+  <text class="small" id="svg_20" x="132" y="570">Stop request and return 401</text>
+  <rect class="card" fill="#fff7ed" height="284" id="svg_21" stroke="#f59e0b" transform="matrix(1 0 0 1 0 0)" width="260" x="455" y="330"/>
+  <text class="label" id="svg_22" x="482" y="368">2. Ban Enforcement</text>
+  <text class="body" id="svg_23" x="482" y="400">Check user.banned flag</text>
+  <text class="body" id="svg_24" x="482" y="430">Reject banned users</text>
+  <text class="small" id="svg_25" x="482" y="545">If banned:</text>
+  <text class="small" id="svg_26" x="482" y="570">Return 403</text>
+  <rect class="card" fill="#f5f3ff" height="282" id="svg_27" stroke="#8b5cf6" transform="matrix(1 0 0 1 0 0)" width="290" x="785" y="330"/>
+  <text class="label" id="svg_28" x="812" y="368">3. RBAC</text>
+  <text class="body" id="svg_29" x="812" y="400">ROLE_USER -&gt; standard APIs</text>
+  <text class="body" id="svg_30" x="812" y="430">ROLE_ADMIN -&gt; admin APIs</text>
+  <text class="small" id="svg_31" x="812" y="545">If role is insufficient:</text>
+  <text class="small" id="svg_32" x="812" y="570">Return 403</text>
+  <rect class="card" fill="#ecfeff" height="278" id="svg_33" stroke="#06b6d4" transform="matrix(1 0 0 1 0 0)" width="290" x="1145" y="330"/>
+  <text class="label" id="svg_34" x="1172" y="368">4. Visibility Rules</text>
+  <text class="body" id="svg_35" x="1172" y="400">PUBLIC -&gt; everyone</text>
+  <text class="body" id="svg_36" x="1172" y="430">FOLLOWERS -&gt; followers only</text>
+  <text class="body" id="svg_37" x="1172" y="460">PRIVATE -&gt; owner only</text>
+  <text class="small" id="svg_38" x="1172" y="545">If content access is blocked:</text>
+  <text class="small" id="svg_39" x="1172" y="570">Return 403</text>
+  <rect class="card" fill="#ecfdf5" height="420" id="svg_40" stroke="#10b981" width="180" x="1505" y="330"/>
+  <text class="label" id="svg_41" x="1532" y="368">Controller</text>
+  <text class="body" id="svg_42" x="1532" y="400">Protected endpoint</text>
+  <text class="body" id="svg_43" x="1532" y="430">Business logic executes</text>
+  <text class="body" id="svg_44" x="1532" y="460">Response returned</text>
+  <text class="small" id="svg_45" x="1532" y="545">Success path only</text>
+  <rect class="card" fill="#ffffff" height="78" id="svg_46" stroke="#cbd5e1" transform="matrix(1 0 0 1 0 0)" width="1500" x="154" y="660"/>
+  <text class="label" font-size="18" id="svg_47" transform="matrix(1 0 0 1 0 0)" x="238" y="702">Login Flow</text>
+  <text class="body" font-size="14" id="svg_48" transform="matrix(1 0 0 1 0 0)" x="406" y="702">Credentials -&gt; Auth service -&gt; Verify password -&gt; Generate JWT -&gt; Return token to frontend -&gt; Send token on later requests</text>
+  <path class="arrow" d="m586,135l134,0" id="svg_49" transform="matrix(1 0 0 1 0 0)"/>
+  <text class="small" font-size="13" id="svg_50" transform="matrix(1 0 0 1 0 0)" x="629" y="127">HTTPS</text>
+  <path class="arrow" d="m910,172l0,108l-665,0l0,50" id="svg_51" transform="matrix(1 0 0 1 0 0)"/>
+  <text class="small" font-size="13" id="svg_52" transform="matrix(1 0 0 1 0 0)" x="776" y="265">Enter filter chain</text>
+  <path class="arrow" d="m385,540l70,0" id="svg_53"/>
+  <path class="arrow" d="m715,540l70,0" id="svg_54"/>
+  <path class="arrow" d="m1075,540l70,0" id="svg_55"/>
+  <path class="arrow" d="m1435,540l70,0" id="svg_56"/>
+  <line class="soft" id="svg_57" transform="matrix(1 0 0 1 0 0)" x1="420" x2="420" y1="330" y2="649"/>
+  <line class="soft" id="svg_58" transform="matrix(1 0 0 1 0 0)" x1="750" x2="750" y1="330" y2="644"/>
+  <line class="soft" id="svg_59" transform="matrix(1 0 0 1 0 0)" x1="1110" x2="1110" y1="330" y2="637"/>
+  <line class="soft" id="svg_60" x1="1470" x2="1470" y1="330" y2="750"/>
+ </g>
+</svg>

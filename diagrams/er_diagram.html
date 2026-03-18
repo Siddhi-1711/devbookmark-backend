@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevBookmark ER Diagram — Styled</title>
+  <style>
+    :root{
+      --bg:#f8fbff;
+      --panel:#ffffff;
+      --panel-2:#fdfefe;
+      --ink:#0f172a;
+      --muted:#64748b;
+      --line:#94a3b8;
+      --accent:#0284c7;
+      --accent-2:#7c3aed;
+      --accent-3:#16a34a;
+      --warm:#f59e0b;
+      --shadow:0 18px 50px rgba(15,23,42,.08), 0 3px 12px rgba(15,23,42,.05);
+      --ring:0 0 0 1px rgba(2,132,199,.08);
+    }
+
+    * { box-sizing: border-box; }
+    body{
+      margin:0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(14,165,233,.10), transparent 28%),
+        radial-gradient(circle at top right, rgba(124,58,237,.08), transparent 24%),
+        linear-gradient(180deg, #f8fbff 0%, #f8fafc 100%);
+    }
+
+    .page{
+      max-width: 1680px;
+      margin: 0 auto;
+      padding: 28px 22px 40px;
+    }
+
+    .hero{
+      background: linear-gradient(135deg, rgba(255,255,255,.96), rgba(248,250,252,.98));
+      border:1px solid rgba(148,163,184,.28);
+      border-radius: 24px;
+      box-shadow: var(--shadow), var(--ring);
+      padding: 26px 28px 18px;
+      margin-bottom: 18px;
+    }
+
+    .eyebrow{
+      display:inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(2,132,199,.10);
+      color:#075985;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing:.02em;
+      margin-bottom: 10px;
+    }
+
+    h1{
+      margin:0;
+      font-size: 30px;
+      line-height:1.15;
+      letter-spacing:-.02em;
+    }
+
+    .sub{
+      margin:10px 0 0;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.65;
+      max-width: 980px;
+    }
+
+    .legend{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:16px;
+    }
+
+    .chip{
+      display:flex;
+      align-items:center;
+      gap:8px;
+      padding:8px 12px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid rgba(148,163,184,.24);
+      color:#334155;
+      font-size:13px;
+      box-shadow: 0 4px 10px rgba(15,23,42,.04);
+    }
+
+    .dot{
+      width:10px;
+      height:10px;
+      border-radius:999px;
+      flex:0 0 auto;
+    }
+
+    .diagram-card{
+      background: linear-gradient(180deg, rgba(255,255,255,.98), rgba(248,250,252,.96));
+      border:1px solid rgba(148,163,184,.28);
+      border-radius: 24px;
+      box-shadow: var(--shadow), var(--ring);
+      overflow:hidden;
+    }
+
+    .diagram-head{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      padding:14px 18px;
+      border-bottom:1px solid rgba(148,163,184,.18);
+      background: linear-gradient(180deg, rgba(255,255,255,.9), rgba(248,250,252,.85));
+    }
+
+    .diagram-head .title{
+      font-size:15px;
+      font-weight:800;
+      color:#0f172a;
+    }
+
+    .diagram-head .meta{
+      font-size:12px;
+      color:#64748b;
+    }
+
+    #erd{
+      overflow:auto;
+      padding: 18px;
+      background:
+        linear-gradient(transparent 23px, rgba(148,163,184,.06) 24px),
+        linear-gradient(90deg, transparent 23px, rgba(148,163,184,.06) 24px);
+      background-size:24px 24px;
+    }
+
+    #erd svg{
+      min-width: 1450px;
+      height: auto;
+      display:block;
+      margin:0 auto;
+    }
+
+    .footer{
+      margin-top: 12px;
+      text-align:center;
+      color:#94a3b8;
+      font-size:12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+   
+
+    <section class="diagram-card">
+
+      <div id="erd"></div>
+    </section>
+
+    
+  </div>
+
+  <script type="module">
+    import mermaid from 'https://esm.sh/mermaid@11/dist/mermaid.esm.min.mjs';
+
+    await document.fonts.ready;
+
+    mermaid.initialize({
+      startOnLoad: false,
+      theme: 'base',
+      securityLevel: 'loose',
+      er: { useMaxWidth: false },
+      fontFamily: 'Inter, ui-sans-serif, system-ui, sans-serif',
+      themeVariables: {
+        fontSize: '12px',
+        lineColor: '#64748b',
+        textColor: '#334155',
+        primaryColor: '#e0f2fe',
+        primaryBorderColor: '#0284c7',
+        primaryTextColor: '#0c4a6e',
+        secondaryColor: '#ede9fe',
+        secondaryBorderColor: '#7c3aed',
+        secondaryTextColor: '#4c1d95',
+        tertiaryColor: '#dcfce7',
+        tertiaryBorderColor: '#16a34a',
+        tertiaryTextColor: '#14532d',
+        mainBkg: '#ffffff',
+        nodeBorder: '#94a3b8'
+      }
+    });
+
+    const diagram = String.raw`erDiagram
+      users {
+        uuid id PK
+        string name
+        string email UK
+        string username UK
+        string password_hash
+        string role
+        boolean is_banned
+        string ban_reason
+        string bio
+        string avatar_url
+        uuid pinned_resource_1
+        uuid pinned_resource_2
+        uuid pinned_resource_3
+        timestamp created_at
+      }
+
+      resources {
+        uuid id PK
+        uuid owner_id FK
+        string title
+        string description
+        string link
+        string type
+        string visibility
+        text content
+        string cover_image
+        string file_url
+        string file_name
+        string file_content_type
+        int read_time_minutes
+        boolean is_published
+        timestamp published_at
+        timestamp created_at
+        timestamp updated_at
+      }
+
+      resource_likes {
+        uuid id PK
+        uuid user_id FK
+        uuid resource_id FK
+        timestamp created_at
+      }
+
+      resource_saves {
+        uuid id PK
+        uuid user_id FK
+        uuid resource_id FK
+        timestamp created_at
+      }
+
+      resource_comments {
+        uuid id PK
+        uuid resource_id FK
+        uuid user_id FK
+        uuid parent_id FK
+        string text
+        timestamp created_at
+        timestamp updated_at
+      }
+
+      resource_views {
+        uuid id PK
+        uuid resource_id FK
+        uuid user_id FK
+        string ip_address
+        boolean read_completed
+        timestamp created_at
+      }
+
+      resource_tags {
+        uuid id PK
+        uuid resource_id FK
+        uuid tag_id FK
+        timestamp created_at
+      }
+
+      tags {
+        uuid id PK
+        string name UK
+      }
+
+      tag_follows {
+        uuid id PK
+        uuid user_id FK
+        uuid tag_id FK
+        timestamp created_at
+      }
+
+      user_follows {
+        uuid id PK
+        uuid follower_id FK
+        uuid followee_id FK
+        timestamp created_at
+      }
+
+      series {
+        uuid id PK
+        uuid owner_id FK
+        string title
+        string description
+        string slug UK
+        string cover_image
+        boolean is_complete
+        timestamp created_at
+        timestamp updated_at
+      }
+
+      series_items {
+        uuid id PK
+        uuid series_id FK
+        uuid resource_id FK
+        int part_number
+        timestamp created_at
+      }
+
+      collections {
+        uuid id PK
+        uuid owner_id FK
+        string name
+        string description
+        boolean is_public
+        timestamp created_at
+        timestamp updated_at
+      }
+
+      collection_resources {
+        uuid id PK
+        uuid collection_id FK
+        uuid resource_id FK
+        timestamp added_at
+      }
+
+      reposts {
+        uuid id PK
+        uuid user_id FK
+        uuid resource_id FK
+        string comment
+        timestamp created_at
+      }
+
+      notifications {
+        uuid id PK
+        uuid recipient_id FK
+        uuid actor_id FK
+        uuid resource_id FK
+        string type
+        timestamp read_at
+        timestamp created_at
+      }
+
+      reading_list {
+        uuid id PK
+        uuid user_id FK
+        uuid resource_id FK
+        boolean is_read
+        timestamp read_at
+        timestamp added_at
+      }
+
+      publications {
+        uuid id PK
+        uuid owner_id FK
+        string slug UK
+        string name
+        string bio
+        string logo_url
+        boolean is_active
+        timestamp created_at
+        timestamp updated_at
+      }
+
+      users ||--o{ resources : "owns"
+      users ||--o{ resource_likes : "likes"
+      users ||--o{ resource_saves : "saves"
+      users ||--o{ resource_comments : "writes"
+      users ||--o{ resource_views : "views"
+      users ||--o{ tag_follows : "follows"
+      users ||--o{ user_follows : "follows (follower)"
+      users ||--o{ user_follows : "followed by (followee)"
+      users ||--o{ series : "creates"
+      users ||--o{ collections : "creates"
+      users ||--o{ reposts : "reposts"
+      users ||--o{ notifications : "receives"
+      users ||--o{ notifications : "triggers"
+      users ||--o{ reading_list : "queues"
+      users ||--o| publications : "owns"
+
+      resources ||--o{ resource_likes : "receives"
+      resources ||--o{ resource_saves : "receives"
+      resources ||--o{ resource_comments : "has"
+      resources ||--o{ resource_views : "tracked"
+      resources ||--o{ resource_tags : "tagged with"
+      resources ||--o{ series_items : "belongs to"
+      resources ||--o{ collection_resources : "in"
+      resources ||--o{ reposts : "reposted as"
+      resources ||--o{ notifications : "referenced"
+      resources ||--o{ reading_list : "queued in"
+
+      resource_comments ||--o{ resource_comments : "has replies"
+
+      tags ||--o{ resource_tags : "used in"
+      tags ||--o{ tag_follows : "followed by"
+
+      series ||--o{ series_items : "contains"
+      collections ||--o{ collection_resources : "contains"
+    `;
+
+    const { svg } = await mermaid.render('er-svg', diagram);
+    document.getElementById('erd').innerHTML = svg;
+
+    const svgEl = document.querySelector('#erd svg');
+    if (svgEl) {
+      svgEl.style.background = 'transparent';
+      svgEl.querySelectorAll('.node').forEach((node, index) => {
+        const firstPath = node.querySelector('path[d]');
+        if (!firstPath) return;
+        const d = firstPath.getAttribute('d');
+        const nums = d.match(/-?[\d.]+/g)?.map(Number);
+        if (!nums || nums.length < 8) return;
+        const xs = [nums[0], nums[2], nums[4], nums[6]];
+        const ys = [nums[1], nums[3], nums[5], nums[7]];
+        const x = Math.min(...xs), y = Math.min(...ys);
+        const w = Math.max(...xs) - x, h = Math.max(...ys) - y;
+
+        const fillPalette = [
+          ['#e0f2fe', '#0284c7'],
+          ['#ede9fe', '#7c3aed'],
+          ['#dcfce7', '#16a34a'],
+          ['#fef3c7', '#d97706']
+        ];
+        const [fill, stroke] = fillPalette[index % fillPalette.length];
+
+        const shadow = document.createElementNS('http://www.w3.org/2000/svg', 'filter');
+        shadow.setAttribute('id', 'softShadow');
+        shadow.innerHTML = `
+          <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.12"/>
+        `;
+        if (!svgEl.querySelector('#softShadow')) {
+          const defs = svgEl.querySelector('defs') || svgEl.insertBefore(document.createElementNS('http://www.w3.org/2000/svg', 'defs'), svgEl.firstChild);
+          defs.appendChild(shadow);
+        }
+
+        const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        rect.setAttribute('x', x);
+        rect.setAttribute('y', y);
+        rect.setAttribute('width', w);
+        rect.setAttribute('height', h);
+        rect.setAttribute('rx', '12');
+        rect.setAttribute('fill', fill);
+        rect.setAttribute('stroke', stroke);
+        rect.setAttribute('stroke-width', '2');
+        rect.setAttribute('filter', 'url(#softShadow)');
+        firstPath.replaceWith(rect);
+
+        const header = node.querySelector('.label text, text');
+        if (header) header.setAttribute('font-weight', '800');
+      });
+
+      svgEl.querySelectorAll('.row-rect-odd path, .row-rect-even path').forEach(p => {
+        p.setAttribute('stroke', 'none');
+        p.setAttribute('fill', '#ffffff');
+        p.setAttribute('opacity', '.95');
+      });
+
+      svgEl.querySelectorAll('.edgePath path').forEach(p => {
+        p.setAttribute('stroke-width', '2.2');
+        p.setAttribute('stroke', '#64748b');
+      });
+
+      svgEl.querySelectorAll('.edgeLabel').forEach(label => {
+        label.setAttribute('fill', '#0f172a');
+      });
+    }
+  </script>
+</body>
+</html>

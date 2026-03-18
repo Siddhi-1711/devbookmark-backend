@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<svg width="1800" height="1100" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <style>.title { font: 700 42px Arial, sans-serif; fill:#0f172a; }
+      .subtitle { font: 500 18px Arial, sans-serif; fill:#475569; }
+      .section { font: 700 24px Arial, sans-serif; fill:#0f172a; }
+      .label { font: 700 19px Arial, sans-serif; fill:#0f172a; }
+      .body { font: 500 15px Arial, sans-serif; fill:#334155; }
+      .small { font: 500 14px Arial, sans-serif; fill:#475569; }
+      .layer { rx:28; ry:28; stroke-width:2.4; filter:url(#shadow); }
+      .card { rx:18; ry:18; stroke-width:2; filter:url(#shadow); }
+      .arrow { stroke:#64748b; stroke-width:4; fill:none; marker-end:url(#arrow); }
+      .mutedLine { stroke:#cbd5e1; stroke-width:2; stroke-dasharray:8 8; }</style>
+ </defs>
+ <!-- Client layer -->
+ <!-- Application layer -->
+ <!-- Data layer -->
+ <!-- Clean arrows -->
+ <!-- Separate non-crossing downward routes -->
+ <!-- Decorative separators -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#f8fafc" height="1100" id="svg_2" width="1800"/>
+  <rect class="layer" fill="#eef2ff" height="120" id="svg_5" stroke="#94a3b8" width="1660" x="70" y="150"/>
+  <text class="section" id="svg_6" x="102" y="192">Client Layer</text>
+  <rect class="card" fill="#ffffff" height="68" id="svg_7" stroke="#94a3b8" width="250" x="280" y="176"/>
+  <text class="label" id="svg_8" x="310" y="205">Developer / User</text>
+  <text class="small" font-size="14" id="svg_9" transform="matrix(1 0 0 1 0 0)" x="311" y="228">Browser / Mobile Browser</text>
+  <rect class="card" fill="#ecfeff" height="90" id="svg_10" stroke="#06b6d4" transform="matrix(1 0 0 1 0 0)" width="440" x="650" y="170"/>
+  <text class="label" id="svg_11" transform="matrix(1 0 0 1 0 0)" x="680" y="201">Frontend Web App</text>
+  <text class="body" font-size="15" id="svg_12" transform="matrix(1 0 0 1 0 0)" x="683" y="222">React 19 + Vite | React Router | Axios | Tailwind</text>
+  <text class="small" font-size="5" id="svg_13" transform="matrix(1 0 0 1 0 0)" x="685" y="242">Netlify deployment | JWT stored client-side</text>
+  <rect class="card" fill="#fffbeb" height="83" id="svg_14" stroke="#f59e0b" transform="matrix(1 0 0 1 0 0)" width="400" x="1210" y="176"/>
+  <text class="label" id="svg_15" x="1240" y="205">User-Facing Product Modules</text>
+  <text class="small" font-size="14" id="svg_16" transform="matrix(1 0 0 1 0 0)" x="1238" y="228">Auth | Resources | Search | Trending | Reading List</text>
+  <rect class="layer" fill="#eff6ff" height="420" id="svg_17" stroke="#3b82f6" transform="matrix(1 0 0 1 0 0)" width="1660" x="70" y="320"/>
+  <text class="section" id="svg_18" x="102" y="362">Application Layer</text>
+  <rect class="card" fill="#fff1f2" height="280" id="svg_19" stroke="#fb7185" width="260" x="105" y="392"/>
+  <text class="label" id="svg_20" x="132" y="426">Security Pipeline</text>
+  <text class="body" id="svg_21" x="132" y="455">JWT validation</text>
+  <text class="body" id="svg_22" x="132" y="485">Ban enforcement</text>
+  <text class="body" id="svg_23" x="132" y="515">Role-based access control</text>
+  <text class="body" id="svg_24" x="132" y="545">Content visibility rules</text>
+  <text class="small" id="svg_25" x="132" y="585">Runs before protected endpoints</text>
+  <text class="small" id="svg_26" x="132" y="610">401 for invalid token</text>
+  <text class="small" id="svg_27" x="132" y="632">403 for banned / forbidden access</text>
+  <rect class="card" fill="#ffffff" height="280" id="svg_28" stroke="#3b82f6" width="270" x="420" y="392"/>
+  <text class="label" id="svg_29" x="450" y="426">REST API Layer</text>
+  <text class="body" id="svg_30" x="450" y="455">Spring Boot 3.5 controllers</text>
+  <text class="body" id="svg_31" x="450" y="485">Request validation</text>
+  <text class="body" id="svg_32" x="450" y="515">DTO mapping and responses</text>
+  <text class="body" id="svg_33" x="450" y="545">OpenAPI / Swagger support</text>
+  <text class="small" id="svg_34" x="450" y="585">Hosted on Render with Docker</text>
+  <rect class="card" fill="#f5f3ff" height="280" id="svg_35" stroke="#8b5cf6" width="360" x="745" y="392"/>
+  <text class="label" id="svg_36" x="775" y="426">Domain Service Layer</text>
+  <text class="body" id="svg_37" x="775" y="455">Auth service</text>
+  <text class="body" id="svg_38" x="775" y="485">Resources, feed, search, trending</text>
+  <text class="body" id="svg_39" x="775" y="515">Collections, series, notifications</text>
+  <text class="body" id="svg_40" x="775" y="545">Recommendations / visibility logic</text>
+  <text class="body" id="svg_41" x="775" y="575">Upload orchestration + file checks</text>
+  <text class="small" id="svg_42" x="775" y="615">Core business logic and application rules</text>
+  <rect class="card" fill="#ffffff" height="280" id="svg_43" stroke="#10b981" width="250" x="1160" y="392"/>
+  <text class="label" id="svg_44" x="1190" y="426">Persistence Layer</text>
+  <text class="body" id="svg_45" x="1190" y="455">Spring Data JPA</text>
+  <text class="body" id="svg_46" x="1190" y="485">Hibernate ORM</text>
+  <text class="body" id="svg_47" x="1190" y="515">Entities + repositories</text>
+  <text class="body" id="svg_48" x="1190" y="545">Relational query mapping</text>
+  <text class="small" id="svg_49" x="1190" y="615">Bridges services to PostgreSQL</text>
+  <rect class="card" fill="#fffbeb" height="280" id="svg_50" stroke="#f59e0b" width="220" x="1465" y="392"/>
+  <text class="label" id="svg_51" x="1495" y="426">Operations</text>
+  <text class="body" id="svg_52" x="1495" y="455">Spring Actuator</text>
+  <text class="body" id="svg_53" x="1495" y="485">Health endpoint</text>
+  <text class="body" id="svg_54" x="1495" y="515">Runtime monitoring</text>
+  <text class="small" id="svg_55" x="1495" y="615">health checks for deployment</text>
+  <rect class="layer" fill="#ecfdf5" height="230" id="svg_56" stroke="#10b981" transform="matrix(1 0 0 1 0 0)" width="1660" x="70" y="790"/>
+  <text class="section" id="svg_57" x="102" y="832">Data and External Services</text>
+  <rect class="card" fill="#ffffff" height="142" id="svg_58" stroke="#10b981" transform="matrix(1 0 0 1 0 0)" width="470" x="150" y="865"/>
+  <text class="label" id="svg_59" x="180" y="900">PostgreSQL Database</text>
+  <text class="body" id="svg_60" x="180" y="926">Neon-hosted relational schema</text>
+  <text class="small" font-size="12.69" id="svg_61" transform="matrix(1 0 0 1 0 0)" x="184" y="977">collections, series, notifications</text>
+  <rect class="card" fill="#ffffff" height="141" id="svg_62" stroke="#06b6d4" transform="matrix(1 0 0 1 0 0)" width="350" x="705" y="865"/>
+  <text class="label" id="svg_63" x="735" y="900">Cloudinary Storage</text>
+  <text class="body" id="svg_64" x="735" y="926">Image and document storage</text>
+  <text class="small" id="svg_65" x="735" y="950">Validated uploads for files, covers, docs,</text>
+  <rect class="card" fill="#ffffff" height="140" id="svg_66" stroke="#f59e0b" transform="matrix(1 0 0 1 0 0)" width="516" x="1140" y="865"/>
+  <text class="label" id="svg_67" x="1170" y="900">Deployment Topology</text>
+  <text class="body" id="svg_68" x="1170" y="926">Frontend: Netlify | Backend: Render Docker | Database: Neon</text>
+  <text class="small" font-size="13.68" id="svg_69" transform="matrix(1 0 0 1 0 0)" x="1173" y="950">GitHub-backed deployment flow | HTTPS between browser, frontend, and API</text>
+  <path class="arrow" d="m530,210l120,0" id="svg_70"/>
+  <text class="small" id="svg_71" x="565" y="193">HTTPS</text>
+  <path class="arrow" d="m1090,210l120,0" id="svg_72"/>
+  <text class="small" id="svg_73" x="1115" y="193">UI modules</text>
+  <path class="arrow" d="m870,262l0,55" id="svg_74" transform="matrix(1 0 0 1 0 0)"/>
+  <text class="small" id="svg_75" transform="matrix(1 0 0 1 0 0)" x="888" y="314">REST API and JSON</text>
+  <path class="arrow" d="m365,532l55,0" id="svg_76"/>
+  <path class="arrow" d="m690,532l55,0" id="svg_77"/>
+  <path class="arrow" d="m1105,532l55,0" id="svg_78"/>
+  <path class="arrow" d="m1285,672l0,138l-852,0l0,55" id="svg_79" transform="matrix(1 0 0 1 0 0)"/>
+  <text class="small" font-size="14" id="svg_80" transform="matrix(1 0 0 1 0 0)" x="437" y="777">JPA and SQL</text>
+  <path class="arrow" d="m925,672l0,193" id="svg_81"/>
+  <text class="small" font-size="14" id="svg_82" transform="matrix(1 0 0 1 0 0)" x="941" y="775">Upload and media</text>
+  <path class="arrow" d="m1575,672l0,193" id="svg_83"/>
+  <text class="small" font-size="14" id="svg_84" transform="matrix(1 0 0 1 0 0)" x="1591" y="776">Health and runtime</text>
+  <line class="mutedLine" id="svg_85" x1="655" x2="655" y1="865" y2="965"/>
+  <line class="mutedLine" id="svg_86" x1="1090" x2="1090" y1="865" y2="965"/>
+  <text class="small" font-size="12.69" id="svg_88" style="cursor: move;" x="179.76" y="951.5">Users, resources, likes, saves, follows, comments, tags,</text>
+  <text class="small" font-size="14" id="svg_89" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="736.42" y="973.5">media assets</text>
+  <text class="small" font-size="14" id="svg_90" style="cursor: move;" transform="matrix(1 0 0 1 0 0)" x="1239.24" y="246.1">Notifications</text>
+ </g>
+</svg>

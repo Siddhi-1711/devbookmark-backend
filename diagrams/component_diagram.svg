@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<svg width="680" height="1090" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="arr" markerHeight="10" markerWidth="10" orient="auto" refX="9" refY="5">
+   <path d="m1,1l8,4l-8,4l0,-8z" fill="#475569" id="svg_1"/>
+  </marker>
+  <marker id="darr" markerHeight="10" markerWidth="10" orient="auto" refX="9" refY="5">
+   <path d="m1,1l8,4l-8,4l0,-8z" fill="#94a3b8" id="svg_3"/>
+  </marker>
+  <mask id="imagine-text-gaps-xltu68" maskUnits="userSpaceOnUse">
+   <rect fill="white" height="1090" id="svg_4" width="680" x="0" y="0"/>
+   <rect fill="black" height="21.75" id="svg_5" rx="2" width="301.46" x="189.47" y="6.11"/>
+   <rect fill="black" height="15.58" id="svg_6" rx="2" width="393.41" x="143.3" y="26.74"/>
+   <rect fill="black" height="15.58" id="svg_7" rx="2" width="137.47" x="31.46" y="51.74"/>
+   <rect fill="black" height="14.03" id="svg_8" rx="2" width="58.93" x="31.23" y="86.28"/>
+   <rect fill="black" height="17.12" id="svg_9" rx="2" width="37.14" x="32" y="97.97"/>
+   <rect fill="black" height="14.03" id="svg_10" rx="2" width="93.16" x="32" y="114.28"/>
+   <rect fill="black" height="14.03" id="svg_11" rx="2" width="102.84" x="32" y="126.28"/>
+   <rect fill="black" height="14.03" id="svg_12" rx="2" width="106.32" x="31.23" y="138.28"/>
+   <rect fill="black" height="14.03" id="svg_13" rx="2" width="58.93" x="177.23" y="86.28"/>
+   <rect fill="black" height="16.35" id="svg_14" rx="2" width="83.59" x="178" y="97.97"/>
+   <rect fill="black" height="14.03" id="svg_15" rx="2" width="96.66" x="178" y="114.28"/>
+   <rect fill="black" height="14.03" id="svg_16" rx="2" width="103.06" x="178" y="126.28"/>
+   <rect fill="black" height="14.03" id="svg_17" rx="2" width="91.86" x="178" y="138.28"/>
+   <rect fill="black" height="14.03" id="svg_18" rx="2" width="58.93" x="31.23" y="184.28"/>
+   <rect fill="black" height="16.35" id="svg_19" rx="2" width="62.02" x="31.23" y="195.97"/>
+   <rect fill="black" height="14.03" id="svg_20" rx="2" width="105.08" x="32" y="212.28"/>
+   <rect fill="black" height="14.03" id="svg_21" rx="2" width="101.4" x="32" y="224.28"/>
+   <rect fill="black" height="14.03" id="svg_22" rx="2" width="58.93" x="177.23" y="184.28"/>
+   <rect fill="black" height="16.35" id="svg_23" rx="2" width="41.48" x="178" y="195.97"/>
+   <rect fill="black" height="14.03" id="svg_24" rx="2" width="68.28" x="178" y="212.28"/>
+   <rect fill="black" height="14.03" id="svg_25" rx="2" width="93.05" x="178" y="224.28"/>
+   <rect fill="black" height="14.03" id="svg_26" rx="2" width="58.93" x="31.23" y="268.28"/>
+   <rect fill="black" height="16.35" id="svg_27" rx="2" width="57.81" x="31.23" y="279.97"/>
+   <rect fill="black" height="14.03" id="svg_28" rx="2" width="64.68" x="31.23" y="296.28"/>
+   <rect fill="black" height="14.03" id="svg_29" rx="2" width="101.71" x="32" y="308.28"/>
+   <rect fill="black" height="14.03" id="svg_30" rx="2" width="58.93" x="177.23" y="268.28"/>
+   <rect fill="black" height="16.35" id="svg_31" rx="2" width="84.04" x="178" y="279.97"/>
+   <rect fill="black" height="14.03" id="svg_32" rx="2" width="90.48" x="177.23" y="296.28"/>
+   <rect fill="black" height="14.03" id="svg_33" rx="2" width="88.48" x="178" y="308.28"/>
+   <rect fill="black" height="14.03" id="svg_34" rx="2" width="58.93" x="31.23" y="352.28"/>
+   <rect fill="black" height="16.35" id="svg_35" rx="2" width="53.91" x="32" y="363.97"/>
+   <rect fill="black" height="14.03" id="svg_36" rx="2" width="90.49" x="31.23" y="380.28"/>
+   <rect fill="black" height="14.03" id="svg_37" rx="2" width="58.93" x="177.23" y="352.28"/>
+   <rect fill="black" height="17.12" id="svg_38" rx="2" width="43.44" x="177.23" y="363.97"/>
+   <rect fill="black" height="14.03" id="svg_39" rx="2" width="79.88" x="177.23" y="380.28"/>
+   <rect fill="black" height="14.03" id="svg_40" rx="2" width="161.26" x="85.3" y="420.28"/>
+   <rect fill="black" height="14.03" id="svg_41" rx="2" width="241.86" x="45.52" y="434.28"/>
+   <rect fill="black" height="15.58" id="svg_42" rx="2" width="160.68" x="358.85" y="51.74"/>
+   <rect fill="black" height="14.03" id="svg_43" rx="2" width="58.93" x="359.23" y="86.28"/>
+   <rect fill="black" height="17.12" id="svg_44" rx="2" width="50.72" x="359.23" y="97.97"/>
+   <rect fill="black" height="14.03" id="svg_45" rx="2" width="62.18" x="359.23" y="114.28"/>
+   <rect fill="black" height="14.03" id="svg_46" rx="2" width="115.39" x="359.23" y="128.28"/>
+   <rect fill="black" height="14.03" id="svg_47" rx="2" width="94.31" x="359.23" y="142.28"/>
+   <rect fill="black" height="14.03" id="svg_48" rx="2" width="103.79" x="360" y="156.28"/>
+   <rect fill="black" height="14.03" id="svg_49" rx="2" width="58.93" x="515.23" y="86.28"/>
+   <rect fill="black" height="16.35" id="svg_50" rx="2" width="33.48" x="515.23" y="97.97"/>
+   <rect fill="black" height="14.03" id="svg_51" rx="2" width="66.51" x="515.23" y="114.28"/>
+   <rect fill="black" height="14.03" id="svg_52" rx="2" width="56.28" x="515.23" y="128.28"/>
+   <rect fill="black" height="14.03" id="svg_53" rx="2" width="88.71" x="516" y="142.28"/>
+   <rect fill="black" height="14.03" id="svg_54" rx="2" width="68.65" x="515.23" y="156.28"/>
+   <rect fill="black" height="14.03" id="svg_55" rx="2" width="58.93" x="359.23" y="198.28"/>
+   <rect fill="black" height="16.35" id="svg_56" rx="2" width="54.67" x="360" y="209.97"/>
+   <rect fill="black" height="14.03" id="svg_57" rx="2" width="82.8" x="360" y="226.28"/>
+   <rect fill="black" height="14.03" id="svg_58" rx="2" width="101.38" x="360" y="240.28"/>
+   <rect fill="black" height="14.03" id="svg_59" rx="2" width="110.37" x="360" y="254.28"/>
+   <rect fill="black" height="14.03" id="svg_60" rx="2" width="109.28" x="359.23" y="268.28"/>
+   <rect fill="black" height="14.03" id="svg_61" rx="2" width="62.62" x="359.23" y="282.28"/>
+   <rect fill="black" height="14.03" id="svg_62" rx="2" width="58.93" x="515.23" y="198.28"/>
+   <rect fill="black" height="16.35" id="svg_63" rx="2" width="37.92" x="515.23" y="209.97"/>
+   <rect fill="black" height="14.03" id="svg_64" rx="2" width="102.3" x="516" y="226.28"/>
+   <rect fill="black" height="14.03" id="svg_65" rx="2" width="80.04" x="516" y="240.28"/>
+   <rect fill="black" height="14.03" id="svg_66" rx="2" width="104.83" x="516" y="254.28"/>
+   <rect fill="black" height="14.03" id="svg_67" rx="2" width="81.8" x="516" y="268.28"/>
+   <rect fill="black" height="14.03" id="svg_68" rx="2" width="67.45" x="515.23" y="282.28"/>
+   <rect fill="black" height="14.03" id="svg_69" rx="2" width="58.93" x="359.23" y="324.28"/>
+   <rect fill="black" height="17.12" id="svg_70" rx="2" width="57.58" x="360" y="335.97"/>
+   <rect fill="black" height="14.03" id="svg_71" rx="2" width="76.28" x="360" y="352.28"/>
+   <rect fill="black" height="14.03" id="svg_72" rx="2" width="140.67" x="359.23" y="366.28"/>
+   <rect fill="black" height="14.03" id="svg_73" rx="2" width="109.76" x="359.23" y="380.28"/>
+   <rect fill="black" height="14.03" id="svg_74" rx="2" width="103.18" x="360" y="394.28"/>
+   <rect fill="black" height="14.03" id="svg_75" rx="2" width="58.93" x="515.23" y="324.28"/>
+   <rect fill="black" height="17.12" id="svg_76" rx="2" width="71.64" x="515.23" y="335.97"/>
+   <rect fill="black" height="14.03" id="svg_77" rx="2" width="117.44" x="515.23" y="352.28"/>
+   <rect fill="black" height="14.03" id="svg_78" rx="2" width="102.13" x="515.23" y="366.28"/>
+   <rect fill="black" height="14.03" id="svg_79" rx="2" width="91.5" x="516" y="380.28"/>
+   <rect fill="black" height="14.03" id="svg_80" rx="2" width="95.72" x="516" y="394.28"/>
+   <rect fill="black" height="14.03" id="svg_81" rx="2" width="250.02" x="380.86" y="434.28"/>
+   <rect fill="black" height="14.03" id="svg_82" rx="2" width="209.95" x="400.95" y="448.28"/>
+   <rect fill="black" height="14.03" id="svg_83" rx="2" width="52.95" x="296.01" y="272.28"/>
+   <rect fill="black" height="14.03" id="svg_84" rx="2" width="51.23" x="296.53" y="305.28"/>
+   <rect fill="black" height="15.58" id="svg_85" rx="2" width="147.05" x="30.45" y="549.74"/>
+   <rect fill="black" height="14.03" id="svg_86" rx="2" width="58.93" x="29.23" y="580.28"/>
+   <rect fill="black" height="17.12" id="svg_87" rx="2" width="86.42" x="29.23" y="591.97"/>
+   <rect fill="black" height="14.03" id="svg_88" rx="2" width="66" x="29.23" y="608.28"/>
+   <rect fill="black" height="14.03" id="svg_89" rx="2" width="125.83" x="30" y="622.28"/>
+   <rect fill="black" height="14.03" id="svg_90" rx="2" width="118.96" x="29.23" y="636.28"/>
+   <rect fill="black" height="14.03" id="svg_91" rx="2" width="58.93" x="193.23" y="580.28"/>
+   <rect fill="black" height="16.35" id="svg_92" rx="2" width="70.01" x="194" y="591.97"/>
+   <rect fill="black" height="14.03" id="svg_93" rx="2" width="125.49" x="194" y="608.28"/>
+   <rect fill="black" height="14.03" id="svg_94" rx="2" width="127.22" x="194" y="622.28"/>
+   <rect fill="black" height="14.03" id="svg_95" rx="2" width="107.17" x="194" y="636.28"/>
+   <rect fill="black" height="14.03" id="svg_96" rx="2" width="58.93" x="357.23" y="580.28"/>
+   <rect fill="black" height="17.12" id="svg_97" rx="2" width="94.23" x="358" y="591.97"/>
+   <rect fill="black" height="14.03" id="svg_98" rx="2" width="96.79" x="357.23" y="608.28"/>
+   <rect fill="black" height="14.03" id="svg_99" rx="2" width="71.7" x="357.23" y="622.28"/>
+   <rect fill="black" height="14.03" id="svg_100" rx="2" width="101.97" x="357.23" y="636.28"/>
+   <rect fill="black" height="14.03" id="svg_101" rx="2" width="58.93" x="521.23" y="580.28"/>
+   <rect fill="black" height="17.12" id="svg_102" rx="2" width="65.75" x="522" y="591.97"/>
+   <rect fill="black" height="14.03" id="svg_103" rx="2" width="79.24" x="522" y="608.28"/>
+   <rect fill="black" height="14.03" id="svg_104" rx="2" width="69.44" x="521.23" y="622.28"/>
+   <rect fill="black" height="14.03" id="svg_105" rx="2" width="115.87" x="521.23" y="636.28"/>
+   <rect fill="black" height="14.03" id="svg_106" rx="2" width="393.42" x="145.21" y="671.28"/>
+   <rect fill="black" height="14.03" id="svg_107" rx="2" width="306.77" x="189.14" y="681.28"/>
+   <rect fill="black" height="15.58" id="svg_108" rx="2" width="176.34" x="15.74" y="763.74"/>
+   <rect fill="black" height="14.03" id="svg_109" rx="2" width="58.93" x="29.23" y="794.28"/>
+   <rect fill="black" height="17.12" id="svg_110" rx="2" width="103.17" x="30" y="805.97"/>
+   <rect fill="black" height="14.03" id="svg_111" rx="2" width="101.65" x="29.23" y="822.28"/>
+   <rect fill="black" height="14.03" id="svg_112" rx="2" width="110.92" x="29.23" y="836.28"/>
+   <rect fill="black" height="14.03" id="svg_113" rx="2" width="58.93" x="185.23" y="794.28"/>
+   <rect fill="black" height="16.35" id="svg_114" rx="2" width="57.97" x="185.23" y="805.97"/>
+   <rect fill="black" height="14.03" id="svg_115" rx="2" width="112.43" x="185.23" y="822.28"/>
+   <rect fill="black" height="14.03" id="svg_116" rx="2" width="108.45" x="186" y="836.28"/>
+   <rect fill="black" height="14.03" id="svg_117" rx="2" width="58.93" x="341.23" y="794.28"/>
+   <rect fill="black" height="17.12" id="svg_118" rx="2" width="62.53" x="342" y="805.97"/>
+   <rect fill="black" height="14.03" id="svg_119" rx="2" width="97.04" x="341.23" y="822.28"/>
+   <rect fill="black" height="14.03" id="svg_120" rx="2" width="99.95" x="342" y="836.28"/>
+   <rect fill="black" height="14.03" id="svg_121" rx="2" width="58.93" x="497.23" y="794.28"/>
+   <rect fill="black" height="16.35" id="svg_122" rx="2" width="52.79" x="497.23" y="805.97"/>
+   <rect fill="black" height="14.03" id="svg_123" rx="2" width="97.17" x="497.23" y="822.28"/>
+   <rect fill="black" height="14.03" id="svg_124" rx="2" width="96.94" x="497.23" y="836.28"/>
+   <rect fill="black" height="14.03" id="svg_125" rx="2" width="419.47" x="132.27" y="877.28"/>
+   <rect fill="black" height="14.03" id="svg_126" rx="2" width="322.76" x="180.65" y="887.28"/>
+   <rect fill="black" height="17.12" id="svg_127" rx="2" width="113.51" x="22" y="977.97"/>
+   <rect fill="black" height="14.03" id="svg_128" rx="2" width="230.89" x="81.23" y="1004.28"/>
+   <rect fill="black" height="14.03" id="svg_129" rx="2" width="53.97" x="25.03" y="1033.28"/>
+   <rect fill="black" height="14.03" id="svg_130" rx="2" width="214.18" x="81.23" y="1033.28"/>
+   <rect fill="black" height="14.03" id="svg_131" rx="2" width="223.87" x="214" y="1004.28"/>
+   <rect fill="black" height="14.03" id="svg_132" rx="2" width="161.8" x="402" y="1004.28"/>
+   <rect fill="black" height="14.03" id="svg_133" rx="2" width="143.76" x="401.23" y="1034.28"/>
+   <rect fill="black" height="14.03" id="svg_134" rx="2" width="98.71" x="220.64" y="1027.28"/>
+      <rect fill="black" height="14.03" id="svg_135" rx="2" width="144.3" x="341.23" y="1034.28"/>
+  </mask>
+ </defs>
+ <!-- ══ TITLE ══ -->
+ <!-- ════════════════════════════════════════════════════
+       SUBSYSTEM A: REACT FRONTEND
+  ════════════════════════════════════════════════════ -->
+ <!-- component symbol: small rectangle with two stubs -->
+ <!-- Pages component -->
+ <!-- Components component -->
+ <!-- State Management -->
+ <!-- Routing -->
+ <!-- API Client -->
+ <!-- Rich Text Editor -->
+ <!-- Build Tool -->
+ <!-- Styling -->
+ <!-- SPA Routing -->
+ <!-- ════════════════════════════════════════════════════
+       SUBSYSTEM B: SPRING BOOT BACKEND
+  ════════════════════════════════════════════════════ -->
+ <!-- Security component -->
+ <!-- Auth component -->
+ <!-- Resource component -->
+ <!-- Social component -->
+ <!-- Discovery component -->
+ <!-- Organisation component -->
+ <!-- Provided interface strip -->
+ <!-- ════════════════════════════════════════════════════
+       INTERFACE CONNECTOR between Frontend ↔ Backend
+  ════════════════════════════════════════════════════ -->
+ <!-- ball-and-socket interface symbol -->
+ <!-- ════════════════════════════════════════════════════
+       SUBSYSTEM C: PERSISTENCE LAYER
+  ════════════════════════════════════════════════════ -->
+ <!-- Spring Data JPA -->
+ <!-- Repositories detail -->
+ <!-- Neon PostgreSQL -->
+ <!-- File Storage -->
+ <!-- Persistence provided interface -->
+ <!-- Arrows Backend → Persistence -->
+ <!-- ════════════════════════════════════════════════════
+       SUBSYSTEM D: CROSS-CUTTING
+  ════════════════════════════════════════════════════ -->
+ <!-- Exception Handling -->
+ <!-- Validation -->
+ <!-- Monitoring -->
+ <!-- API Docs -->
+ <!-- Cross-cutting strip -->
+ <!-- ════════════════════════════════════════════════════
+       DEPENDENCY ARROWS (vertical connectors)
+  ════════════════════════════════════════════════════ -->
+ <!-- Frontend API Client → Backend REST interface -->
+ <!-- Backend → Persistence -->
+ <!-- LEGEND -->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="rgb(248, 250, 252)" height="1080" id="svg_136" stroke-width="1px" width="680" x="-1" y="-1"/>
+  <text dominant-baseline="auto" fill="#0f172a" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="14px" font-weight="700" id="svg_137" stroke-width="1px" style="cursor: move;" text-anchor="middle" x="340" y="22">UML Component Diagram</text>
+  <rect fill="rgb(236, 254, 255)" height="480" id="svg_139" rx="10" stroke="rgb(8, 145, 178)" stroke-width="1px" transform="matrix(1 0 0 1 0 0)" width="310" x="10" y="50"/>
+  <rect fill="rgb(207, 250, 254)" height="18" id="svg_140" rx="4" stroke="rgb(8, 145, 178)" stroke-width="0.8px" width="180" x="10" y="50"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="9px" font-weight="700" id="svg_141" stroke-width="1px" text-anchor="middle" x="100" y="63">«subsystem» React Frontend</text>
+  <rect fill="rgb(255, 255, 255)" height="80" id="svg_142" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="28" y="80"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_143" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="90"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_144" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="104"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_145" stroke-width="1px" text-anchor="start" x="36" y="96">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_146" stroke-width="1px" text-anchor="start" x="36" y="110">Pages</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_147" stroke-width="1px" text-anchor="start" x="36" y="124">Feed · Explore · Search</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_148" stroke-width="1px" text-anchor="start" x="36" y="136">Resource · Profile · Series</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_149" stroke-width="1px" text-anchor="start" x="36" y="148">Collections · Notifications</text>
+  <rect fill="rgb(255, 255, 255)" height="80" id="svg_150" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="174" y="80"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_151" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="90"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_152" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="104"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_153" stroke-width="1px" text-anchor="start" x="182" y="96">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_154" stroke-width="1px" text-anchor="start" x="182" y="110">UI Components</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_155" stroke-width="1px" text-anchor="start" x="182" y="124">Navbar · RichTextEditor</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_156" stroke-width="1px" text-anchor="start" x="182" y="136">FileUpload · ImageUpload</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_157" stroke-width="1px" text-anchor="start" x="182" y="148">Lucide icons · Radix UI</text>
+  <rect fill="rgb(255, 255, 255)" height="68" id="svg_158" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="28" y="178"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_159" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="188"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_160" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="200"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_161" stroke-width="1px" text-anchor="start" x="36" y="194">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_162" stroke-width="1px" text-anchor="start" x="36" y="208">Auth Store</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_163" stroke-width="1px" text-anchor="start" x="36" y="222">React Context + useState</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_164" stroke-width="1px" text-anchor="start" x="36" y="234">localStorage JWT persist</text>
+  <rect fill="rgb(255, 255, 255)" height="68" id="svg_165" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="174" y="178"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_166" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="188"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_167" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="200"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_168" stroke-width="1px" text-anchor="start" x="182" y="194">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_169" stroke-width="1px" text-anchor="start" x="182" y="208">Router</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_170" stroke-width="1px" text-anchor="start" x="182" y="222">React Router v7</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_171" stroke-width="1px" text-anchor="start" x="182" y="234">Protected routes · SPA</text>
+  <rect fill="rgb(255, 255, 255)" height="68" id="svg_172" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="28" y="262"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_173" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="272"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_174" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="286"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_175" stroke-width="1px" text-anchor="start" x="36" y="278">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_176" stroke-width="1px" text-anchor="start" x="36" y="292">API Client</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_177" stroke-width="1px" text-anchor="start" x="36" y="306">Axios instance</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_178" stroke-width="1px" text-anchor="start" x="36" y="318">Bearer token interceptor</text>
+  <rect fill="rgb(255, 255, 255)" height="68" id="svg_179" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="174" y="262"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_180" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="272"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_181" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="286"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_182" stroke-width="1px" text-anchor="start" x="182" y="278">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_183" stroke-width="1px" text-anchor="start" x="182" y="292">Rich Text Editor</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_184" stroke-width="1px" text-anchor="start" x="182" y="306">Tiptap 3 · Table · Color</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_185" stroke-width="1px" text-anchor="start" x="182" y="318">Highlight · Align · Link</text>
+  <rect fill="rgb(255, 255, 255)" height="54" id="svg_186" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="28" y="346"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_187" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="356"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_188" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="150" y="368"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_189" stroke-width="1px" text-anchor="start" x="36" y="362">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_190" stroke-width="1px" text-anchor="start" x="36" y="376">Build Tool</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_191" stroke-width="1px" text-anchor="start" x="36" y="390">Vite 7 · Tailwind CSS 4</text>
+  <rect fill="rgb(255, 255, 255)" height="54" id="svg_192" rx="6" stroke="rgb(8, 145, 178)" stroke-width="1px" width="130" x="174" y="346"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_193" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="356"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_194" rx="2" stroke="rgb(8, 145, 178)" stroke-width="0.8px" transform="matrix(1 0 0 1 0 0)" width="16" x="296" y="368"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_195" stroke-width="1px" text-anchor="start" x="182" y="362">«component»</text>
+  <text dominant-baseline="auto" fill="#0c4a6e" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_196" stroke-width="1px" text-anchor="start" x="182" y="376">Styling</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_197" stroke-width="1px" text-anchor="start" x="182" y="390">Tailwind · index.css</text>
+  <rect fill="rgb(207, 250, 254)" height="40" id="svg_198" rx="6" stroke="rgb(6, 182, 212)" stroke-width="0.8px" width="276" x="28" y="416"/>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_199" stroke-width="1px" text-anchor="middle" x="166" y="430">«provided interface» REST API Consumer</text>
+  <text dominant-baseline="auto" fill="#0369a1" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_200" stroke-width="1px" text-anchor="middle" x="166" y="444">Netlify _redirects SPA · localStorage token · VITE_API_URL env</text>
+  <rect fill="rgb(245, 243, 255)" height="480" id="svg_201" rx="10" stroke="rgb(124, 58, 237)" stroke-width="1px" transform="matrix(1 0 0 1 0 0)" width="330" x="340" y="50"/>
+  <rect fill="rgb(237, 233, 254)" height="18" id="svg_202" rx="4" stroke="rgb(124, 58, 237)" stroke-width="0.8px" width="198" x="340" y="50"/>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="9px" font-weight="700" id="svg_203" stroke-width="1px" text-anchor="middle" x="439" y="63">«subsystem» Spring Boot Backend</text>
+  <rect fill="rgb(255, 241, 242)" height="96" id="svg_204" rx="6" stroke="rgb(251, 113, 133)" stroke-width="1px" width="144" x="356" y="80"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_205" rx="2" stroke="rgb(251, 113, 133)" stroke-width="0.8px" width="16" x="488" y="90"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_206" rx="2" stroke="rgb(251, 113, 133)" stroke-width="0.8px" width="16" x="488" y="104"/>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_207" stroke-width="1px" text-anchor="start" x="364" y="96">«component»</text>
+  <text dominant-baseline="auto" fill="#881337" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_208" stroke-width="1px" text-anchor="start" x="364" y="110">Security</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_209" stroke-width="1px" text-anchor="start" x="364" y="124">JwtAuthFilter</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_210" stroke-width="1px" text-anchor="start" x="364" y="138">JwtService · HMAC-SHA256</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_211" stroke-width="1px" text-anchor="start" x="364" y="152">SecurityConfig · CORS</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_212" stroke-width="1px" text-anchor="start" x="364" y="166">BCryptPasswordEncoder</text>
+  <rect fill="rgb(255, 241, 242)" height="96" id="svg_213" rx="6" stroke="rgb(251, 113, 133)" stroke-width="1px" width="144" x="512" y="80"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_214" rx="2" stroke="rgb(251, 113, 133)" stroke-width="0.8px" width="16" x="644" y="90"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_215" rx="2" stroke="rgb(251, 113, 133)" stroke-width="0.8px" width="16" x="644" y="104"/>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_216" stroke-width="1px" text-anchor="start" x="520" y="96">«component»</text>
+  <text dominant-baseline="auto" fill="#881337" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_217" stroke-width="1px" text-anchor="start" x="520" y="110">Auth</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_218" stroke-width="1px" text-anchor="start" x="520" y="124">AuthController</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_219" stroke-width="1px" text-anchor="start" x="520" y="138">AuthService</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_220" stroke-width="1px" text-anchor="start" x="520" y="152">POST /register · /login</text>
+  <text dominant-baseline="auto" fill="#be123c" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_221" stroke-width="1px" text-anchor="start" x="520" y="166">JWT generation</text>
+  <rect fill="rgb(245, 243, 255)" height="110" id="svg_222" rx="6" stroke="rgb(124, 58, 237)" stroke-width="1px" width="144" x="356" y="192"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_223" rx="2" stroke="rgb(124, 58, 237)" stroke-width="0.8px" width="16" x="488" y="202"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_224" rx="2" stroke="rgb(124, 58, 237)" stroke-width="0.8px" width="16" x="488" y="216"/>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_225" stroke-width="1px" text-anchor="start" x="364" y="208">«component»</text>
+  <text dominant-baseline="auto" fill="#3b0764" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_226" stroke-width="1px" text-anchor="start" x="364" y="222">Resource</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_227" stroke-width="1px" text-anchor="start" x="364" y="236">ResourceController</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_228" stroke-width="1px" text-anchor="start" x="364" y="250">ResourceService · CRUD</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_229" stroke-width="1px" text-anchor="start" x="364" y="264">Interaction (like/save/view)</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_230" stroke-width="1px" text-anchor="start" x="364" y="278">Comment · Preview · Batch</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_231" stroke-width="1px" text-anchor="start" x="364" y="292">Visibility rules</text>
+  <rect fill="rgb(245, 243, 255)" height="110" id="svg_232" rx="6" stroke="rgb(124, 58, 237)" stroke-width="1px" width="144" x="512" y="192"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_233" rx="2" stroke="rgb(124, 58, 237)" stroke-width="0.8px" width="16" x="644" y="202"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_234" rx="2" stroke="rgb(124, 58, 237)" stroke-width="0.8px" width="16" x="644" y="216"/>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_235" stroke-width="1px" text-anchor="start" x="520" y="208">«component»</text>
+  <text dominant-baseline="auto" fill="#3b0764" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_236" stroke-width="1px" text-anchor="start" x="520" y="222">Social</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_237" stroke-width="1px" text-anchor="start" x="520" y="236">FollowController/Service</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_238" stroke-width="1px" text-anchor="start" x="520" y="250">NetworkController</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_239" stroke-width="1px" text-anchor="start" x="520" y="264">RepostController/Service</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_240" stroke-width="1px" text-anchor="start" x="520" y="278">NotificationService</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_241" stroke-width="1px" text-anchor="start" x="520" y="292">ActivityService</text>
+  <rect fill="rgb(255, 247, 237)" height="96" id="svg_242" rx="6" stroke="rgb(245, 158, 11)" stroke-width="1px" width="144" x="356" y="318"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_243" rx="2" stroke="rgb(245, 158, 11)" stroke-width="0.8px" width="16" x="488" y="328"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_244" rx="2" stroke="rgb(245, 158, 11)" stroke-width="0.8px" width="16" x="488" y="342"/>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_245" stroke-width="1px" text-anchor="start" x="364" y="334">«component»</text>
+  <text dominant-baseline="auto" fill="#78350f" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_246" stroke-width="1px" text-anchor="start" x="364" y="348">Discovery</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_247" stroke-width="1px" text-anchor="start" x="364" y="362">ExploreController</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_248" stroke-width="1px" text-anchor="start" x="364" y="376">TrendingService (likes×2+saves×3)</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_249" stroke-width="1px" text-anchor="start" x="364" y="390">SearchService · TagService</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_250" stroke-width="1px" text-anchor="start" x="364" y="404">RecommendationService</text>
+  <rect fill="rgb(255, 247, 237)" height="96" id="svg_251" rx="6" stroke="rgb(245, 158, 11)" stroke-width="1px" width="144" x="512" y="318"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_252" rx="2" stroke="rgb(245, 158, 11)" stroke-width="0.8px" width="16" x="644" y="328"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_253" rx="2" stroke="rgb(245, 158, 11)" stroke-width="0.8px" width="16" x="644" y="342"/>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_254" stroke-width="1px" text-anchor="start" x="520" y="334">«component»</text>
+  <text dominant-baseline="auto" fill="#78350f" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_255" stroke-width="1px" text-anchor="start" x="520" y="348">Organisation</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_256" stroke-width="1px" text-anchor="start" x="520" y="362">CollectionController/Service</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_257" stroke-width="1px" text-anchor="start" x="520" y="376">SeriesController/Service</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_258" stroke-width="1px" text-anchor="start" x="520" y="390">ReadingListController</text>
+  <text dominant-baseline="auto" fill="#b45309" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_259" stroke-width="1px" text-anchor="start" x="520" y="404">PinService · Publication</text>
+  <rect fill="rgb(237, 233, 254)" height="40" id="svg_260" rx="6" stroke="rgb(167, 139, 250)" stroke-width="0.8px" width="300" x="356" y="430"/>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_261" stroke-width="1px" text-anchor="middle" x="506" y="444">«provided interface» REST API — 112 endpoints · JSON responses</text>
+  <text dominant-baseline="auto" fill="#6d28d9" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_262" stroke-width="1px" text-anchor="middle" x="506" y="458">CORS: Netlify origin · Stateless JWT · /actuator/health</text>
+  <circle cx="320" cy="310" fill="none" id="svg_263" r="7" stroke="rgb(71, 85, 105)" stroke-width="1.2px" transform="matrix(1 0 0 1 0 0)"/>
+  <line fill="rgb(0, 0, 0)" id="svg_265" stroke="rgb(71, 85, 105)" stroke-width="1.2px" transform="matrix(1 0 0 1 0 0)" x1="302" x2="313" y1="310" y2="310"/>
+  <line fill="rgb(0, 0, 0)" id="svg_266" marker-end="url(#arr)" stroke="rgb(71, 85, 105)" stroke-width="1.2px" transform="matrix(1 0 0 1 0 0)" x1="327" x2="342" y1="310" y2="310"/>
+  <text dominant-baseline="auto" fill="#475569" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="7.5" font-weight="400" id="svg_267" stroke-width="1px" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="322" y="256">REST/HTTPS</text>
+  <text dominant-baseline="auto" fill="#475569" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="7.5" font-weight="400" id="svg_268" stroke-width="1px" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="324" y="343">JSON · JWT</text>
+  <rect fill="rgb(236, 253, 245)" height="196" id="svg_269" rx="10" stroke="rgb(22, 163, 74)" stroke-width="1px" width="660" x="10" y="548"/>
+  <rect fill="rgb(220, 252, 231)" height="18" id="svg_270" rx="4" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="188" x="10" y="548"/>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="9px" font-weight="700" id="svg_271" stroke-width="1px" text-anchor="middle" x="104" y="561">«subsystem» Persistence Layer</text>
+  <rect fill="rgb(255, 255, 255)" height="80" id="svg_272" rx="6" stroke="rgb(22, 163, 74)" stroke-width="1px" width="148" x="26" y="574"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_273" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="162" y="584"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_274" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="162" y="598"/>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_275" stroke-width="1px" text-anchor="start" x="34" y="590">«component»</text>
+  <text dominant-baseline="auto" fill="#14532d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_276" stroke-width="1px" text-anchor="start" x="34" y="604">Spring Data JPA</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_277" stroke-width="1px" text-anchor="start" x="34" y="618">18 Repositories</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_278" stroke-width="1px" text-anchor="start" x="34" y="632">Hibernate ORM · batch_size=10</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_279" stroke-width="1px" text-anchor="start" x="34" y="646">fetch_size=50 · HikariCP pool</text>
+  <rect fill="rgb(255, 255, 255)" height="80" id="svg_280" rx="6" stroke="rgb(22, 163, 74)" stroke-width="1px" width="148" x="190" y="574"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_281" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="326" y="584"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_282" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="326" y="598"/>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_283" stroke-width="1px" text-anchor="start" x="198" y="590">«component»</text>
+  <text dominant-baseline="auto" fill="#14532d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_284" stroke-width="1px" text-anchor="start" x="198" y="604">Repositories</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_285" stroke-width="1px" text-anchor="start" x="198" y="618">ResourceRepository (trending)</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_286" stroke-width="1px" text-anchor="start" x="198" y="632">UserRepository · TagRepository</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_287" stroke-width="1px" text-anchor="start" x="198" y="646">+ 15 others · @Query JPQL</text>
+  <rect fill="rgb(255, 255, 255)" height="80" id="svg_288" rx="6" stroke="rgb(22, 163, 74)" stroke-width="1px" width="148" x="354" y="574"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_289" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="490" y="584"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_290" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="490" y="598"/>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_291" stroke-width="1px" text-anchor="start" x="362" y="590">«component»</text>
+  <text dominant-baseline="auto" fill="#14532d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_292" stroke-width="1px" text-anchor="start" x="362" y="604">Neon PostgreSQL</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_293" stroke-width="1px" text-anchor="start" x="362" y="618">23 tables · SSL required</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_294" stroke-width="1px" text-anchor="start" x="362" y="632">ddl-auto: update</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_295" stroke-width="1px" text-anchor="start" x="362" y="646">Connection pool max=10</text>
+  <rect fill="rgb(255, 255, 255)" height="80" id="svg_296" rx="6" stroke="rgb(22, 163, 74)" stroke-width="1px" width="140" x="518" y="574"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_297" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="646" y="584"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_298" rx="2" stroke="rgb(22, 163, 74)" stroke-width="0.8px" width="16" x="646" y="598"/>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_299" stroke-width="1px" text-anchor="start" x="526" y="590">«component»</text>
+  <text dominant-baseline="auto" fill="#14532d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_300" stroke-width="1px" text-anchor="start" x="526" y="604">File Storage</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_301" stroke-width="1px" text-anchor="start" x="526" y="618">FileStorageService</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_302" stroke-width="1px" text-anchor="start" x="526" y="632">Cloudinary SDK</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_303" stroke-width="1px" text-anchor="start" x="526" y="646">Size·MIME·MagicByte check</text>
+  <rect fill="rgb(187, 247, 208)" height="28" id="svg_304" rx="5" stroke="rgb(74, 222, 128)" stroke-width="0.8px" width="632" x="26" y="668"/>
+  <text dominant-baseline="auto" fill="#14532d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_305" stroke-width="1px" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="342" y="681">«provided interface» JPA Repository — JDBC/SSL → Neon · Cloudinary HTTP SDK → media upload/fetch</text>
+  <text dominant-baseline="auto" fill="#15803d" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="7.5px" font-weight="400" id="svg_306" stroke-width="1px" text-anchor="middle" x="342" y="691">N+1 fix: enrichPage() batches GROUP BY · HikariCP max-pool=10 · open-in-view=false</text>
+  <line fill="rgb(0, 0, 0)" id="svg_307" marker-end="url(#arr)" stroke="rgb(71, 85, 105)" stroke-width="1.2px" x1="430" x2="430" y1="530" y2="548"/>
+  <rect fill="rgb(254, 252, 232)" height="196" id="svg_308" rx="10" stroke="rgb(202, 138, 4)" stroke-width="1px" width="660" x="10" y="762"/>
+  <rect fill="rgb(254, 249, 195)" height="18" id="svg_309" rx="4" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="188" x="10" y="762"/>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="9px" font-weight="700" id="svg_310" stroke-width="1px" text-anchor="middle" x="104" y="775">«subsystem» Cross-Cutting Concerns</text>
+  <rect fill="rgb(255, 255, 255)" height="72" id="svg_311" rx="6" stroke="rgb(202, 138, 4)" stroke-width="1px" width="140" x="26" y="788"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_312" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="154" y="798"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_313" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="154" y="812"/>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_314" stroke-width="1px" text-anchor="start" x="34" y="804">«component»</text>
+  <text dominant-baseline="auto" fill="#713f12" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_315" stroke-width="1px" text-anchor="start" x="34" y="818">Exception Handling</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_316" stroke-width="1px" text-anchor="start" x="34" y="832">GlobalExceptionHandler</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_317" stroke-width="1px" text-anchor="start" x="34" y="846">ApiError · 400/401/403/404</text>
+  <rect fill="rgb(255, 255, 255)" height="72" id="svg_318" rx="6" stroke="rgb(202, 138, 4)" stroke-width="1px" width="140" x="182" y="788"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_319" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="310" y="798"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_320" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="310" y="812"/>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_321" stroke-width="1px" text-anchor="start" x="190" y="804">«component»</text>
+  <text dominant-baseline="auto" fill="#713f12" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_322" stroke-width="1px" text-anchor="start" x="190" y="818">Validation</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_323" stroke-width="1px" text-anchor="start" x="190" y="832">Jakarta @Valid · @NotBlank</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_324" stroke-width="1px" text-anchor="start" x="190" y="846">DTO constraints · trimming</text>
+  <rect fill="rgb(255, 255, 255)" height="72" id="svg_325" rx="6" stroke="rgb(202, 138, 4)" stroke-width="1px" width="140" x="338" y="788"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_326" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="466" y="798"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_327" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="466" y="812"/>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_328" stroke-width="1px" text-anchor="start" x="346" y="804">«component»</text>
+  <text dominant-baseline="auto" fill="#713f12" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_329" stroke-width="1px" text-anchor="start" x="346" y="818">Monitoring</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_330" stroke-width="1px" text-anchor="start" x="346" y="832">Spring Actuator /health</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_331" stroke-width="1px" text-anchor="start" x="346" y="846">UptimeRobot 5-min ping</text>
+  <rect fill="rgb(255, 255, 255)" height="72" id="svg_332" rx="6" stroke="rgb(202, 138, 4)" stroke-width="1px" width="164" x="494" y="788"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_333" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="646" y="798"/>
+  <rect fill="rgb(255, 255, 255)" height="8" id="svg_334" rx="2" stroke="rgb(202, 138, 4)" stroke-width="0.8px" width="16" x="646" y="812"/>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_335" stroke-width="1px" text-anchor="start" x="502" y="804">«component»</text>
+  <text dominant-baseline="auto" fill="#713f12" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="10px" font-weight="600" id="svg_336" stroke-width="1px" text-anchor="start" x="502" y="818">API Docs</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_337" stroke-width="1px" text-anchor="start" x="502" y="832">SpringDoc OpenAPI 2.5</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_338" stroke-width="1px" text-anchor="start" x="502" y="846">Swagger UI /swagger-ui</text>
+  <rect fill="rgb(254, 249, 195)" height="28" id="svg_339" rx="5" stroke="rgb(251, 191, 36)" stroke-width="0.8px" width="632" x="26" y="874"/>
+  <text dominant-baseline="auto" fill="#713f12" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="8px" font-weight="400" id="svg_340" stroke-width="1px" text-anchor="middle" x="342" y="887">«provided interface» @Transactional · Lombok · Jackson (non_null, ISO timestamps) · HikariCP · @PreAuthorize</text>
+  <text dominant-baseline="auto" fill="#a16207" font-family="&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif" font-size="7.5px" font-weight="400" id="svg_341" stroke-width="1px" text-anchor="middle" x="342" y="897">Spring Security filter order: CorsFilter → JwtAuthFilter → AuthorizationFilter → Controller</text>
+  <line fill="rgb(0, 0, 0)" id="svg_342" marker-end="url(#darr)" stroke="rgb(71, 85, 105)" stroke-dasharray="4px, 3px" stroke-width="1px" x1="136" x2="136" y1="530" y2="542"/>
+  <line fill="rgb(0, 0, 0)" id="svg_343" stroke="rgb(71, 85, 105)" stroke-dasharray="4px, 3px" stroke-width="1px" x1="136" x2="506" y1="542" y2="542"/>
+  <line fill="rgb(0, 0, 0)" id="svg_344" marker-end="url(#darr)" stroke="rgb(71, 85, 105)" stroke-dasharray="4px, 3px" stroke-width="1px" x1="506" x2="506" y1="542" y2="530"/>
+  <line fill="rgb(0, 0, 0)" id="svg_345" marker-end="url(#arr)" stroke="rgb(71, 85, 105)" stroke-width="1px" x1="166" x2="166" y1="760" y2="762"/>
+  <line fill="rgb(0, 0, 0)" id="svg_360" marker-end="url(#arr)" mask="url(#imagine-text-gaps-xltu68)" stroke="rgb(71, 85, 105)" stroke-width="1.2px" x1="380" x2="400" y1="1010" y2="1010"/>
+  <line fill="rgb(0, 0, 0)" id="svg_362" marker-end="url(#darr)" mask="url(#imagine-text-gaps-xltu68)" stroke="rgb(148, 163, 184)" stroke-dasharray="4px, 3px" stroke-width="1px" x1="380" x2="400" y1="1040" y2="1040"/>
+ </g>
+</svg>
