@@ -16,7 +16,7 @@ public interface ResourceTagRepository extends JpaRepository<ResourceTag, UUID> 
         from ResourceTag rt
         join rt.tag t
         join rt.resource r
-        where r.createdAt >= :since
+        where rt.createdAt >= :since
           and r.visibility = com.devbookmark.resource.ResourceVisibility.PUBLIC
         group by t.name
         order by count(rt.id) desc
